@@ -1,0 +1,49 @@
+main{
+    margin: 3rem 3rem;
+    text-align: center;
+}
+
+.qtd{
+    font-size: 6rem;
+}
+
+.botoes{
+    margin-top: 7rem;
+}
+
+.botao{
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #b4b5e9;
+    transition: 0.3s ease;
+}
+
+.botao:hover{
+    background-color:#e88b9a;
+    cursor: pointer;
+}
+
+.reiniciar{
+    margin-top: 1rem;
+    padding: 1.5rem;
+}
+
+.invisivel{
+    display: none;
+}
+
+.bx{
+    font-size: 1.2rem;
+}
+
+@media screen and (min-width: 768px) {
+    main{
+        margin-top: 6rem;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .qtd{
+        font-size: 6rem;
+    }
+}
